@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_service_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.bhavya.places.ui.activity.ServiceResultActivity">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"></include>
+
+
+        <ListView
+            android:id="@+id/resultlistview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/layout_margin_top_10"
+            android:layout_marginLeft="@dimen/layout_margin_top_10"
+            android:layout_marginRight="@dimen/layout_margin_top_10"
+            android:dividerHeight="@dimen/divider_height"
+            android:divider="@color/colorDivider"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.fragments.FavouritePlacesFragment">
+
+    <ListView
+        android:id="@+id/listviewfavorites"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/layout_margin_top_10"
+        android:layout_marginLeft="@dimen/layout_margin_top_10"
+        android:layout_marginRight="@dimen/layout_margin_top_10"
+        android:dividerHeight="@dimen/divider_height"
+        android:divider="@color/colorDivider"/>
+
+</LinearLayout>

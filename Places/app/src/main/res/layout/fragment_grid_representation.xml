@@ -1,0 +1,17 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/gridview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:columnWidth="90dp"
+          android:numColumns="2"
+          android:verticalSpacing="10dp"
+          android:horizontalSpacing="10dp"
+          android:gravity="center"
+          android:stretchMode="columnWidth"
+          tools:context=".ui.fragments.GridRepresentationFragment">
+
+
+
+
+</GridView>

@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Places</string>
+    <string name="google_play_services_version">Permission</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password"> Password </string>
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="hint_phone">Mobile Number</string>
+    <string name="hint_confirm_pswd">Confirm Password</string>
+    <string name="hint_passcode">Passcode</string>
+
+    <string name="Login">Login</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="new_to_places">New to Places ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="text_Profile_Details">Profile Details</string>
+    <string name="resetpswd">Reset Password</string>
+    <string name="text_Email_Id">Email ID</string>
+    <string name="editdetails">Edit Details</string>
+
+    <string name="stringArrayValue"> 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+    </string>
+    <string name="invalidEmail">Invalid Email</string>
+    <string name="invalidPswd">Invalid Password</string>
+    <string name="invalidPasscode">Invalid Passcode</string>
+    <string name="invalidFirstName">First name required</string>
+    <string name="invalidLastName">Last name required</string>
+    <string name="invalidPhone">Phone Number should be of 10 digits</string>
+    <string name="invalidRadius">Radius should be an Integer between 500 and 50000</string>
+
+    <string name="resetPasswordConfirmation">"Are you sure you want to reset your password?"</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="emailIDDoesNotExist">Email ID does not exist!</string>
+    <string name="passcode">Passcode: </string>
+    <string name="notificationMsg">Use this passcode to reset your password</string>
+    <string name="emailPswdNotMatching">Email ID and Password does not match!</string>
+    <string name="pswdsDonotMatch">Passwords Donot Match</string>
+    <string name="emailPasscodeDoesNotMatch">Email ID and Passcode does not match</string>
+    <string name="pswdResetUnsucessful">Password Reset Not Successful. Try Again!</string>
+    <string name="passwordResetSuccessful">Your password has been successfully reset!</string>
+    <string name="emailAlreadyExists">The entered Email already exists! Try another Email ID</string>
+    <string name="signupNotSuccessful">Sign Up not successful!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="updationFailed">Details not updated. Try again!</string>
+
+    <string name="searchvalue_notfound">Type the name of the place you are searching for in
+    the search box</string>
+    <string name="item_not_selected">Please select a place type from the list</string>
+    <string name="invalid_search">Type the name of the place in search box and select the
+        type of place from the list</string>
+
+    <string name="navigationDrawerOpen">Open navigation drawer</string>
+    <string name="navigationDrawerClose">Close navigation drawer</string>
+
+    <string name="drawerOpen">Open navigation drawer</string>
+    <string name="drawerClose">Close navigation drawer</string>
+
+    <string name="titleActivityDrawer">DrawerActivity</string>
+
+    <!--<string name="google_api_key">AIzaSyCT4NIyXRcecbq3Zlu-2Vi3Re1FyqhvnNk</string>-->
+    <string name="googleApiKey"> AIzaSyA6QlrMZXxvgcrHGAddw1nWgl9cr5q11Cg  </string>
+    <string name="titleActivityMaps">Map</string>
+
+    <string name="pageTitleMap">Map</string>
+    <string name="pageTitleGrid">Grid</string>
+    <string name="pageTitleNearbyPlaces">Nearby Places</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="status">Status: </string>
+    <string name="open"> Open Now</string>
+    <string name="closed"> Closed</string>
+    <string name="statusUnavailable"> Status Unavailable</string>
+    <string name="Distance"> Distance:~ </string>
+    <string name="km"> km </string>
+
+    <string name="initial_api">https://maps.googleapis.com/maps/api/place/nearbysearch/json?</string>
+    <string name="setlocation">location=</string>
+    <string name="comma">,</string>
+    <string name="and"> &amp; </string>
+    <string name="equals">=</string>
+    <string name="radius">radius=</string>
+    <string name="type">type=</string>
+    <string name="name">name=</string>
+    <string name="restaurant">restaurant</string>
+    <string name="key">key=</string>
+    <string name="APIkey">AIzaSyCT4NIyXRcecbq3Zlu-2Vi3Re1FyqhvnNk</string>
+    <string name="setplaceid">placeid=</string>
+    <string name="initialString">https://maps.googleapis.com/maps/api/place/details/json?</string>
+    <string name="currentradius">Radius</string>
+    <string name="initalPhotoRef">https://maps.googleapis.com/maps/api/place/photo?</string>
+    <string name="maxwidth">maxwidth=</string>
+    <string name="photoref">photoreference=</string>
+
+    <string name="hospital"> Hospital</string>
+    <string name="bank">Bank</string>
+    <string name="atm"> ATM </string>
+    <string name="bakery">Bakery</string>
+    <string name="airport">Airport</string>
+    <string name="amusement_park">Amusement Park</string>
+    <string name="aquarium">Aquarium</string>
+    <string name="bar">Bar</string>
+    <string name="beauty_salon">Beauty Salon</string>
+    <string name="bicycle_store">Bicycle Store</string>
+    <string name="book_store">Book Store</string>
+    <string name="bowling_alley">Bowling Alley</string>
+    <string name="bus_station">Bus Station</string>
+    <string name="cafe">Cafe</string>
+    <string name="campground">Camp Ground</string>
+    <string name="car_dealer">Car Dealer</string>
+    <string name="car_rental">Car Rental</string>
+    <string name="car_repair">Car Repair</string>
+    <string name="car_wash">Car Wash</string>
+    <string name="casino">Casing</string>
+    <string name="cemetery">Cemetery</string>
+    <string name="church">Church</string>
+    <string name="city_hall">City Hall</string>
+    <string name="clothing_store">Clothing Store</string>
+    <string name="convenience_store">Convenience Store</string>
+    <string name="courthouse">Court House</string>
+    <string name="dentist">Dentist</string>
+    <string name="department_store">Department Store</string>
+    <string name="doctor">Doctor</string>
+    <string name="electrician">Electrician</string>
+    <string name="electronics_store">Electronics Store</string>
+    <string name="embassy">Embassy</string>
+    <string name="fire_station">Fire Station</string>
+    <string name="florist">Florist</string>
+    <string name="funeral_home">Funeral Home</string>
+    <string name="furniture_store">Furniture Store</string>
+    <string name="gas_station">Gas Station</string>
+    <string name="gym">Gym</string>
+    <string name="hair_care">Hair care</string>
+    <string name="hardware_store">Hardware Store</string>
+    <string name="hindu_temple">Hindu Temple</string>
+    <string name="home_goods_store">Home Goods Store</string>
+    <string name="insurance_agency">Insurance Agency</string>
+    <string name="jewelry_store">Jewellery Store</string>
+    <string name="laundry">Laundry</string>
+    <string name="lawyer">Lawyer</string>
+    <string name="library">Library</string>
+    <string name="liquor_store">Liquor Store</string>
+    <string name="local_government_office">Local Government Office</string>
+    <string name="locksmith">Locksmith</string>
+    <string name="lodging">Lodging</string>
+    <string name="meal_delivery">Meal Delivery</string>
+    <string name="meal_takeaway">Meal takeaway</string>
+    <string name="mosque">Mosque</string>
+    <string name="movie_rental">Movie Rental</string>
+    <string name="movie_theater">Movie Theatre</string>
+    <string name="moving_company">Movie Company</string>
+    <string name="museum">Museum</string>
+    <string name="night_club">Night Club</string>
+    <string name="painter">Painter</string>
+    <string name="park">Park</string>
+    <string name="parking">Parking</string>
+    <string name="pet_store">Pet Store</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="physiotherapist">Physiotherapist</string>
+    <string name="plumber">Plumber</string>
+    <string name="police">Police</string>
+    <string name="post_office">Post Office</string>
+    <string name="real_estate_agency">Real estate agency</string>
+    <string name="roofing_contractor">Roofing Contractor</string>
+    <string name="rv_park">RV Park</string>
+    <string name="school">School</string>
+    <string name="shoe_store">Shoe Store</string>
+    <string name="shopping_mall">Shopping mall</string>
+    <string name="spa">Spa</string>
+    <string name="stadium">Stadium</string>
+    <string name="storage">Storage</string>
+    <string name="store">Store</string>
+    <string name="subway_station">Subway Station</string>
+    <string name="synagogue">Synagogue</string>
+    <string name="taxi_stand">Taxi Stand</string>
+    <string name="train_station">Train Station</string>
+    <string name="transit_station">Transit station</string>
+    <string name="travel_agency">Travel agency</string>
+    <string name="university">University</string>
+    <string name="veterinary_care">Veterinary care</string>
+    <string name="zoo">Zoo</string>
+
+
+    <string name="error">ERROR</string>
+    <string name="loading_map">Loading Map...</string>
+    <string name="loading">Loading...</string>
+    <string name="loading_place_details">Loading Place Details...</string>
+    <string name="locationupdate">location_update</string>
+    <string name="placesupdate">places_update</string>
+    <string name="json">json</string>
+    <string name="log_info">INFO</string>
+    <string name="log_api">API</string>
+    <string name="urlerror">url is wrong</string>
+    <string name="place_id">PLACEID</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="tel">tel:</string>
+    <string name="setrootpath">sdPlacesfile</string>
+    <string name="textfile_extension">.txt</string>
+    <string name="rerrew">rerrew</string>
+    <string name="fs_placetype">PlaceType</string>
+    <string name="fs_placename">PlaceName</string>
+    <string name="fs_Radius">Radius</string>
+    <string name="fs_LatLngString">LatLngString</string>
+    <string name="fs_APIKey">APIKey</string>
+    <string name="fs_latitude">latitude</string>
+    <string name="fs_longitude">longitude</string>
+    <string name="current_position">Current Position</string>
+    <string name="set_image_type">image/*</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="status_opennow">true</string>
+
+
+    <string name="wifi_enabled">Wifi enabled</string>
+    <string name="mobile_data_enabled">Mobile data enabled</string>
+    <string name="no_connection">Not connected to Internet</string>
+
+</resources>

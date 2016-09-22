@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".ui.fragments.FindAServiceFragment">
+
+    <RelativeLayout
+        android:id="@+id/searchbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/text_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/image_searchicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/text_search"
+            android:layout_alignRight="@+id/text_search"
+            android:layout_alignTop="@+id/text_search"
+            android:padding="5dp"
+            android:src="@drawable/ic_search"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/searchViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchbox"
+        android:choiceMode="singleChoice"
+        android:divider="@color/colorDivider"
+        android:background="@drawable/custom_activatedbackgroundindicator_listview"
+        android:paddingTop="15dp"
+        />
+</RelativeLayout>

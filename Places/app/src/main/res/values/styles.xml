@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+    </style>
+
+    <!-- Error text Appearance -->
+    <style name="MyErrorText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/textsize_small</item>
+    </style>
+
+    <!-- Back button Customization on toolbar . -->
+    <style name="toolbarCustomBackButton" parent="AppTheme">
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+    <!-- Hint text Appearance -->
+    <style name="CustomTextInputLayout">
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Button Customization. -->
+    <style name="custom_button_layout">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/textsize_large</item>
+        <item name="android:textStyle">normal|bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_ht</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_gravity">center|center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/custom_button</item>
+    </style>
+
+    <!-- Text Input Layout Customization. -->
+    <style name="custom_text_input_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_gravity">center_vertical|center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/customratingstars</item>
+        <item name="android:minHeight">25dip</item>
+        <item name="android:maxHeight">25dip</item>
+        <item name="android:fillColor">@color/colorOrange</item>
+    </style>
+
+
+
+</resources>

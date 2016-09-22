@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/nearbyplaceswithoutpager"
+              tools:context=".ui.fragments.NearByPlaceswithoutViewPagerFragment">
+
+    <ListView
+        android:id="@+id/listviewplaces"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/layout_margin_top_10"
+        android:layout_marginLeft="@dimen/layout_margin_top_10"
+        android:layout_marginRight="@dimen/layout_margin_top_10"
+        android:dividerHeight="@dimen/divider_height"
+        android:divider="@color/colorDivider"/>
+
+
+    <ProgressBar
+        android:id="@+id/apiprogress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:visibility="gone"/>
+
+</LinearLayout>

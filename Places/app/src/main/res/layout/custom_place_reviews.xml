@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
+
+
+    <TextView
+        android:id="@+id/text_personname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorDarkGrey"
+        android:textSize="@dimen/textsize_large"/>
+
+    <RatingBar
+        android:id="@+id/showrating"
+        style="@style/customRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_personname"/>
+
+    <TextView
+        android:id="@+id/person_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showrating"
+        android:textColor="@color/colorDarkGrey"
+        android:textSize="@dimen/textsize_large"/>
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDarkGrey"
+        android:textSize="@dimen/textsize_large"/>
+
+
+</LinearLayout>

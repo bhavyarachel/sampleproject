@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/nav_draw">
+        <item
+            android:id="@+id/navNearbyPlacesFragment"
+            android:icon="@drawable/ic_menu_nearbyplaces"
+            android:title="Nearby Places"/>
+        <item
+            android:id="@+id/navFavoritePlacesFragment"
+            android:icon="@drawable/ic_menu_favourite"
+            android:title="Favourite Places"/>
+        <item
+            android:id="@+id/navFindAServiceFragment"
+            android:icon="@drawable/ic_menu_findservice"
+            android:title="Find A Service"/>
+
+        <item
+            android:id="@+id/navMyProfileFragment"
+            android:icon="@drawable/ic_menu_myprofile"
+            android:title="My Profile"/>
+
+        <item
+            android:id="@+id/nav_LogoutFragemnt"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout"/>
+
+    </group>
+</menu>
